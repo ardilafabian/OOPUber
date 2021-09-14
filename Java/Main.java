@@ -2,9 +2,8 @@ package Java;
 class Main {
     public static void main(String[] args) {
         System.out.println("Hola mundo");
-        Car car = new Car();
-        car.licence = "AMQ123";
-        car.driver = "Andrés herrera";
+        Account acc = new Account("Andrés herrera", "123456789");
+        Car car = new Car("AMQ123", acc);
         car.passenger = 4;
         car.printDataCar();
     }

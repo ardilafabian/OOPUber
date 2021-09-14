@@ -3,4 +3,6 @@ function Car() {
     this.licence;
     this.driver;
     this.passenger;
+
+    
 }
